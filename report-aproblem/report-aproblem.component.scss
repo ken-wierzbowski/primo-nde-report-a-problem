@@ -1,0 +1,41 @@
+/* Report a Problem *START* */
+
+
+  nde-location-items-container-after-from-remote-0 button, nde-view-it-after-from-remote-0 button, nde-requests-after-from-remote-0 button {
+    height: auto !important;
+    padding: 1em !important;
+  }
+  custom-report-aproblem  div, nde-view-it-after-from-remote-0 div, nde-get-it-after-from-remote-0 div, nde-location-items-container-after-from-remote-0 div, nde-requests-after-from-remote-0 div {
+    height: auto;
+    background-color: #e6e6e6;
+  }
+  
+  custom-report-aproblem  a, nde-view-it-after-from-remote-0 a, nde-get-it-after-from-remote-0 a, nde-location-items-container-after-from-remote-0 a, nde-requests-after-from-remote-0 a {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+  } 
+  
+  custom-report-aproblem button, nde-view-it-after-from-remote-0 button, nde-get-it-after-from-remote-0 button, nde-location-items-container-after-from-remote-0 button, nde-requests-after-from-remote-0 button {
+    
+    width: auto;
+    height: 3em;  
+    border: 0;
+    background-color: #e6e6e6;
+    border-radius: 25px;
+  } 
+  
+  custom-report-aproblem button:hover, nde-view-it-after-from-remote-0 button:hover, nde-get-it-after-from-remote-0 button:hover, nde-location-items-container-after-from-remote-0 button:hover, nde-requests-after-from-remote-0 button:hover {
+    background-color: #f3f3f3;
+  }
+  
+  custom-report-aproblem button span, nde-view-it-after-from-remote-0 button span, nde-get-it-after-from-remote-0 button span, nde-location-items-container-after-from-remote-0 button span, nde-requests-after-from-remote-0 button span {
+  color: #001337;
+  font-size: 1.2em;
+  height: 100%;
+  font-family: Noto Sans Display, sans-serif;
+  }  
+
+/* Report a Problem *END* */
