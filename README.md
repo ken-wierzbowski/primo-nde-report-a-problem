@@ -3,8 +3,8 @@ A custom "Report a Problem" button that scrapes metadata from the full-record vi
 
 ## Overview
 * This component sends the permalink of the reported record, record title, and record source from the DOM to mapped fields in a LibWizard form.
-* You can then customize the LibWizard form to ask the user for additional information (i.e. Contact info, user status). 
-* The full permalink helps staff troubleshoot the resource by being able to view the same record that the patron was looking at.
+  * You can then customize the LibWizard form to ask the user for additional information (i.e. Contact info, user status). 
+  * The full permalink helps staff troubleshoot the resource by being able to view the same record that the patron was looking at.
 * This component was developed before PNX access was enabled in the NDE.
   * A future re-working would explore pulling metadata straight from the PNX record rather than the DOM.
   * The 'pnx' named variables in the LibWizard form are due to this form also being used in Primo VE, where the customization there does directly refernce the PNX record. 
