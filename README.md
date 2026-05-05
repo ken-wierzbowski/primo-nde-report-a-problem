@@ -17,8 +17,8 @@ A custom "Report a Problem" button that scrapes metadata from the current full-r
 ['nde-location-items-container-after', ReportAproblemComponent],
 ['nde-requests-after', ReportAproblemComponent],
 ```
-[!NOTE]
-You can map this component to appear in several places. There is logic built into report-aproblem.component.ts that will deduplicate the button in the Full Record View:
+>[!NOTE]
+>You can map this component to appear in several places. There is logic built into report-aproblem.component.ts that will deduplicate the button in the Full Record View:
 ```
     const viewItExists =  document.querySelector('nde-view-it');
     const getItExists =  document.querySelector('nde-get-it');
@@ -46,8 +46,8 @@ You can map this component to appear in several places. There is logic built int
 * pnx_title
 * pnx_source
 
-[!NOTE]
-You can modify your LibWizard form to have other fields and short names, but you will need to modify report-aproblem.component.html and report-aproblem.component.ts accordingly. You can use CSS in LibWizard to hide the url and pnx_source fields from the user for simplification. Use the developer console in your browser to find the CSS selector for the field you want to hide.
+>[!NOTE]
+>You can modify your LibWizard form to have other fields and short names, but you will need to modify report-aproblem.component.html and report-aproblem.component.ts accordingly. You can use CSS in LibWizard to hide the url and pnx_source fields from the user for simplification. Use the developer console in your browser to find the CSS selector for the field you want to hide.
 ![screenshot](readme-images/libwizard_css.png)
 ```
 libwizard-question.width-full:nth-child(9) > div:nth-child(1){
