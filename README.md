@@ -2,7 +2,7 @@
 A custom "Report a Problem" button that scrapes metadata from the current full-record view and maps it to a Springshare LibWizard form. Inspired by several custom "Report a Problem" buttons for Primo VE and adapted for the NDE.
 
 ## Screenshot
-![screenshot] (readme-images/rap.png)
+![screenshot](readme-images/rap.png)
 
 ## Configuration
 
@@ -48,7 +48,7 @@ You can map this component to appear in several places. There is logic built int
 
 [!NOTE]
 You can modify your LibWizard form to have other fields and short names, but you will need to modify report-aproblem.component.html and report-aproblem.component.ts accordingly. You can use CSS in LibWizard to hide the url and pnx_source fields from the user for simplification. Use the developer console in your browser to find the CSS selector for the field you want to hide.
-![screenshot] (readme-images/libwizard_css.png)
+![screenshot](readme-images/libwizard_css.png)
 ```
 libwizard-question.width-full:nth-child(9) > div:nth-child(1){
 
